@@ -1035,8 +1035,15 @@ div#preloader {
   padding: 10px 0px;
 }
 
-.team-content>h4, .team-content>p {
-  color: #444;
+.team-content>h4 {
+  color: #7c7c7c;
+  font-family: 'Bebas Neue';
+  font-weight: 900;
+  margin-bottom: 5px;
+}
+
+.team-content>p {
+  color: #7c7c7c;
   margin-bottom: 5px;
 }
 
