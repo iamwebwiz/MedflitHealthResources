@@ -476,6 +476,12 @@ div#preloader {
   background-color: #f9f9f9;
 }
 
+.about-move h4 {
+  font-family: 'Bebas Neue';
+  font-weight: 900;
+  color: #7c7c7c;
+}
+
 .single-well>a {
   display: block;
 }
@@ -527,7 +533,6 @@ div#preloader {
   padding-top: 10px;
 }
 
-
 .services-icon-container:hover {
   box-shadow: 0px 15px 20px rgba(0, 0, 0, 0.1);
   color: #fff;
@@ -545,7 +550,7 @@ div#preloader {
 }
 
 .services-details:hover h4, .services-details:hover .services-icon {
-  color: #A886C2;
+  color: #fff;
 }
 
 .row.second-row {
