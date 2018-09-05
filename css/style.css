@@ -38,6 +38,7 @@
 
 html, body {
   height: 100%;
+  /* overflow-x:hidden; */
 }
 
 .floatleft {
@@ -220,6 +221,10 @@ div#preloader {
 
 .area-padding-2 {
   padding: 70px 0px 50px;
+}
+
+.no-padding {
+  padding: none;
 }
 
 .padding-2 {
