@@ -385,7 +385,7 @@ div#preloader {
 /*--------------------------------*/
 
 .header-area.stick {
-  background-color: rgba(0, 0, 0, 1);
+  background-color: #A886C2;
   height: 70px;
   position: fixed;
   top: 0;
@@ -1860,14 +1860,15 @@ div#preloader {
   text-transform: uppercase;
 }
 
-.footer-head h3 {
+.footer-head h5 {
   color: #fff;
-  font-size: 27px;
+  font-size: 24px;
   letter-spacing: 2px;
   padding-bottom: 10px;
   text-transform: uppercase;
   font-family: 'Bebas Neue';
   font-weight: bold;
+  line-height: 30px;
 }
 
 .footer-logo {
@@ -1918,6 +1919,14 @@ div#preloader {
   color: #dfdcdc;
   font-weight: 700;
   line-height: 10px;
+}
+
+.footer-contacts p a {
+  color: #dfdcdc;
+}
+
+.footer-contacts p a:hover {
+  color: #FFE600;
 }
 
 .popular-tag ul li {
@@ -1972,6 +1981,10 @@ div#preloader {
 }
 
 .copyright a, .credits a {
+  color: #fff;
+}
+
+.copyright a:hover, .credits a:hover {
   color: #FFE600;
 }
 

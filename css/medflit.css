@@ -161,3 +161,64 @@ html, body {
 .team-content-body#arr-side8 {
     border-top: 4px solid rgb(0, 255, 123);
 }
+
+.team-content-body#arr-side9 {
+    border-top: 4px solid rgb(255, 38, 0);
+}
+
+/*********** Latest News Section****************/
+
+.news-padding {
+    padding-left: 30px;
+    padding-right: 30px;
+}
+.news-text {
+    margin-top: 15px;
+}
+
+.news-text h2 {
+    font-family: 'Bebas Neue';
+    font-weight: bold;
+}
+
+
+.news-text p {
+    line-height: 30px;
+    text-align: justify;
+}
+
+.news-text p {
+    line-height: 30px;
+    text-align: justify;
+}
+.news-text p.author {
+    font-size: 17px;
+}
+
+@media (max-width: 767px) {
+    .news-text h2 {
+        font-size: 24px;
+        font-family: 'Bebas Neue';
+        font-weight: bold;
+    }
+}
+
+.search {
+    position: relative;
+}
+
+.search .fa-search {
+    position: absolute;
+    top: 10px;
+    right: 25px;
+    font-size: 14px;
+    color: #646464;
+}
+
+/* .openings {
+
+}
+
+.openings input, select {
+    border-color: #A886C2;
+} */
