@@ -119,24 +119,35 @@
                         <hr>
                         <form action="" method="">
                             <div class="form-group">
-                                <label for="firstname">Name <i class="req"><sup>*</sup> </i></label>
-                                <input type="text" class="form-control" value="" id="" placeholder="Full Name">
+                                <label for="fullname">Name <i class="req"><sup>*</sup> </i></label>
+                                <input type="text" class="form-control" value="" id="" placeholder="Full Name" required>
                             </div>
                             <div class="form-group">
                                 <label for="email">Email Address<i class="req"><sup>*</sup> </i></label>
-                                <input type="text" class="form-control" value="" id="" placeholder="Email Address">
+                                <input type="email" class="form-control" value="" id="" placeholder="Email Address" required>
                             </div>
                             <div class="form-group">
                                 <label for="phonenumber">Phone Number <i class="req"><sup>*</sup> </i></label>
-                                <input type="text" class="form-control" value="" id="" placeholder="Phone Number">
+                                <input type="text" class="form-control" value="" id="" placeholder="Phone Number" required>
                             </div>
                             <div class="form-group">
                                 <label for="location">Subject <i class="req"><sup>*</sup> </i></label>
-                                <input type="text" class="form-control" value="" id="" placeholder="Subject">
+                                <input type="text" class="form-control" value="" id="" placeholder="Subject" required>
+                            </div>
+                            <div class="form-group">
+                              <label for="location">Category <i class="req"><sup>*</sup> </i></label>
+                              <select name="" class="form-control" id="" required>
+                                <option value="">Select a category</option>
+                                <option value="patient">Patient</option>
+                                <option value="provider">Provider</option>
+                                <option value="pharmacy">Pharmacy</option>
+                                <option value="partner">Partner</option>
+                                <option value="investor">Investor</option>
+                              </select>
                             </div>
                             <div class="form-group">
                                 <label for="location">Message <i class="req"><sup>*</sup> </i></label>
-                                <textarea name="" id="" class="form-control" cols="30" rows="10">
+                                <textarea name="" id="" class="form-control" cols="30" rows="10" required>
                                     
                                 </textarea>
                             </div>
@@ -215,7 +226,7 @@
                         <h5>COMMON LINKS</h5>
                         <div class="footer-contacts">
                           <p><a href="careers.html">Careers</a></p>
-                          <p><a href="#">Investors</a></p>
+                          <p><a href="partner-with-us.html">Investors</a></p>
                           <p><a href="https://www.google.com/maps?ll=6.442779,3.509403&z=15&t=m&hl=en-US&gl=NG&mapclient=embed&q=Prince+Ibrahim+Eletu+Ave+Lekki+Penninsula+II+Lekki">Get Directions & hours</a></p>
                           <p><a href="latest-news.html">Hospital News</a></p>
                           <p><a href="https://medflit.com/pharmacists/">Package & Promotions</a></p>
