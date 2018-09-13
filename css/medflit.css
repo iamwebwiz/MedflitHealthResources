@@ -130,6 +130,10 @@ html, body {
     margin-bottom: 20px;
 }
 
+.team-content-body p {
+    font-size: 18px;
+}
+
 .team-content-body#arr-side {
     border-top: 4px solid #FFE600;
 }
