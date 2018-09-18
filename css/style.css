@@ -760,7 +760,7 @@ div#preloader {
 ----------------------------------------*/
 
 .wellcome-area {
-  background: rgba(248, 248, 248, 0.8) url("../img/slider/MHR-3.jpg");
+  /* background: rgba(248, 248, 248, 0.8) url("../img/slider/MHR-3.jpg"); */
   background-size: cover;
   background-position: center top;
   background-repeat: no-repeat;
