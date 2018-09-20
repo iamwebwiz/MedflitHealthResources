@@ -12,6 +12,7 @@ var TeamMembers = function() {
     $("#details7").hide();
     $("#details8").hide();
     $("#details9").hide();
+    $("#details10").hide();
     
     
 
@@ -67,6 +68,11 @@ var TeamMembers = function() {
             });
             $("#arr-side9").on('click', function() {
                 $("#details9").toggle(1000, function(){
+                    //
+                });
+            });
+            $("#arr-side10").on('click', function() {
+                $("#details10").toggle(1000, function(){
                     //
                 });
             });
